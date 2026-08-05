@@ -10,58 +10,20 @@
 
 <h3>Two browsers: one for your agents, one for you.</h3>
 
-</div>
-
-<table>
-<tr>
-<td width="50%" align="center" valign="top">
-
-<img src="packages/browseros/resources/browserclaw/icons/product_logo_192.png" alt="BrowserOS neo logo" width="96" height="96" />
-
-### BrowserOS neo
-
-**The browser for AI agents**
-
-A second browser your agents drive with your logged-in accounts. Connect Claude Code, Codex, or Cursor, run many tasks at once, watch live, replay every step.
-
-[![Download for macOS](https://img.shields.io/badge/Download-macOS-black?style=flat&logo=apple&logoColor=white)](https://cdn.browseros.com/download/BrowserOS_neo.dmg)
-[![Download for Windows](https://img.shields.io/badge/Download-Windows-0078D4?style=flat&logo=windows&logoColor=white)](https://cdn.browseros.com/download/BrowserOS_neo_installer.exe)
-
-**[Website](https://www.browseros.com/agents)** · **[Docs](https://docs.browseros.com/neo)**
-
-</td>
-<td width="50%" align="center" valign="top">
-
-<img src="packages/browseros/resources/browseros/icons/product_logo_192.png" alt="BrowserOS logo" width="96" height="96" />
-
-### BrowserOS
-
-**The AI browser for humans**
-
-An open-source Chromium fork with a built-in AI agent. Bring your own API keys, or connect to models running locally.
-
-[![Download for macOS](https://img.shields.io/badge/Download-macOS-black?style=flat&logo=apple&logoColor=white)](https://files.browseros.com/download/BrowserOS.dmg)
-[![Download for Windows](https://img.shields.io/badge/Download-Windows-0078D4?style=flat&logo=windows&logoColor=white)](https://files.browseros.com/download/BrowserOS_installer.exe)
-[![Download for Linux](https://img.shields.io/badge/Download-Linux-FCC624?style=flat&logo=linux&logoColor=black)](https://files.browseros.com/download/BrowserOS.AppImage)
-[![Download for Debian](https://img.shields.io/badge/Download-Debian-D70A53?style=flat&logo=debian&logoColor=white)](https://cdn.browseros.com/download/BrowserOS.deb)
-
-**[Website](https://www.browseros.com)** · **[Docs](https://docs.browseros.com)**
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
 Free · Open source (AGPL-3.0) · Everything runs on your machine
 
 </div>
 
-## BrowserOS neo
+<details open>
+<summary><h1><img src="packages/browseros/resources/browserclaw/icons/product_logo_192.png" alt="" width="28" /> BrowserOS neo: the browser for your agents</h1></summary>
 
 **What is BrowserOS neo?** A second browser, just for your AI agents. Import your logins from Chrome in one click, connect Claude Code, Codex, Cursor, or any MCP agent, and hand off your web tasks. Agents run in parallel in their own tabs. You watch live, or replay any session like a video.
 
 Your AI is smart, but it can't press the buttons. Ask it to book a flight or reply to an email, and it stops at the login screen. BrowserOS neo fixes that.
+
+[![Download for macOS](https://img.shields.io/badge/Download-macOS-black?style=flat&logo=apple&logoColor=white)](https://cdn.browseros.com/download/BrowserOS_neo.dmg)
+[![Download for Windows](https://img.shields.io/badge/Download-Windows-0078D4?style=flat&logo=windows&logoColor=white)](https://cdn.browseros.com/download/BrowserOS_neo_installer.exe)
+&nbsp; **[Website](https://www.browseros.com/agents)** · **[Docs](https://docs.browseros.com/neo)**
 
 ### Get started
 
@@ -131,8 +93,16 @@ Every session is saved as a scrubbable video on your disk with a step-by-step ac
 | I can replay what my agent did | ✓ | — | — | — | — |
 | My browsing data stays on my machine | ✓ | ✓ | ✓ | — | — |
 
+</details>
+
 <details>
-<summary><h1>BrowserOS: the AI browser for humans</h1></summary>
+<summary><h1><img src="packages/browseros/resources/browseros/icons/product_logo_192.png" alt="" width="28" /> BrowserOS: the AI browser for humans</h1></summary>
+
+[![Download for macOS](https://img.shields.io/badge/Download-macOS-black?style=flat&logo=apple&logoColor=white)](https://files.browseros.com/download/BrowserOS.dmg)
+[![Download for Windows](https://img.shields.io/badge/Download-Windows-0078D4?style=flat&logo=windows&logoColor=white)](https://files.browseros.com/download/BrowserOS_installer.exe)
+[![Download for Linux](https://img.shields.io/badge/Download-Linux-FCC624?style=flat&logo=linux&logoColor=black)](https://files.browseros.com/download/BrowserOS.AppImage)
+[![Download for Debian](https://img.shields.io/badge/Download-Debian-D70A53?style=flat&logo=debian&logoColor=white)](https://cdn.browseros.com/download/BrowserOS.deb)
+&nbsp; **[Website](https://www.browseros.com)** · **[Docs](https://docs.browseros.com)**
 
 **What is BrowserOS?** BrowserOS is a free, open-source Chromium fork with an AI agent built into every new tab. Ask it to summarise a page, click through a flow, extract data, or run a scheduled task, and it uses 20+ built-in tools plus 40+ app integrations to get the work done. Bring your own AI keys or run everything locally with Ollama.
 
