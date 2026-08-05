@@ -84,15 +84,6 @@ Every session is saved as a scrubbable video on your disk with a step-by-step ac
 - **Not a cloud browser.** Browserbase and Browser Use Cloud run your agent's session on someone else's infrastructure. Your prompts and session tokens pass through their servers. BrowserOS neo runs on your machine, on `127.0.0.1`.
 - **Not a locked-in AI browser.** Atlas, Comet, and Dia only work with their own AI. BrowserOS neo works with the agents you already use and pay for.
 
-| The job | BrowserOS neo | agent-browser | Browser Use | Dia | Comet |
-|---|:---:|:---:|:---:|:---:|:---:|
-| Works with my own agent (Claude Code, Codex, Cursor) | ✓ | ✓ | ✓ | — | — |
-| My agent uses my real logins, no setup | ✓ | — | — | ✓ | ✓ |
-| I can run many agents at once | ✓ | — | — | — | ✓ |
-| I keep browsing while my agents work | ✓ | ✓ | ✓ | — | ✓ |
-| I can replay what my agent did | ✓ | — | — | — | — |
-| My browsing data stays on my machine | ✓ | ✓ | ✓ | — | — |
-
 </details>
 
 <details>
@@ -164,21 +155,6 @@ Point the agent at a page, tell it what to pull, and get structured data back. <
 
 - **Not Chrome with an AI extension.** Extensions can't touch the browser chrome, can't run scheduled background tasks, can't ship the 20+ built-in tools that the agent uses natively. BrowserOS builds the agent into Chromium itself.
 - **Not Comet, Atlas, or Dia.** Those AI browsers route your prompts through their cloud with their model. BrowserOS runs on your machine with your AI keys. Your data stays yours.
-
-### LLM support
-
-Bring your own keys, use OAuth for your existing subscriptions, or run models locally. The 6 most-used providers, at a glance:
-
-| Provider | Type | Auth |
-|---|---|---|
-| Kimi (default) | Cloud | Built-in |
-| Claude (Anthropic) | Cloud | API key |
-| GPT-4o / o3 (OpenAI) | Cloud | API key |
-| ChatGPT Pro/Plus | Cloud | OAuth |
-| Ollama | Local | [Setup](https://docs.browseros.com/features/local-models) |
-| LM Studio | Local | [Setup](https://docs.browseros.com/features/local-models) |
-
-Full list of 11+ providers (Gemini, GitHub Copilot, Azure, Bedrock, OpenRouter, and more) is in the [bring-your-own-LLM docs](https://docs.browseros.com/features/bring-your-own-llm).
 
 ### How BrowserOS compares
 
