@@ -132,9 +132,7 @@ Every session is saved as a scrubbable video on your disk with a step-by-step ac
 | My browsing data stays on my machine | ✓ | ✓ | ✓ | — | — |
 
 <details>
-<summary><b>BrowserOS: the AI browser for humans</b> (click to expand)</summary>
-
-## BrowserOS
+<summary><h1>BrowserOS: the AI browser for humans</h1></summary>
 
 **What is BrowserOS?** BrowserOS is a free, open-source Chromium fork with an AI agent built into every new tab. Ask it to summarise a page, click through a flow, extract data, or run a scheduled task, and it uses 20+ built-in tools plus 40+ app integrations to get the work done. Bring your own AI keys or run everything locally with Ollama.
 
