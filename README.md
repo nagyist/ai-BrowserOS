@@ -8,6 +8,8 @@
 <a href="https://github.com/browseros-ai/BrowserOS"><img src="https://img.shields.io/github/stars/browseros-ai/BrowserOS?style=flat&logo=github&label=stars&color=4c71f2" alt="GitHub stars" /></a>
 <br></br>
 
+<h3>Two browsers: one for your agents, one for you.</h3>
+
 </div>
 
 <table>
@@ -36,7 +38,7 @@ A second browser your agents drive with your logged-in accounts. Connect Claude 
 
 **The AI browser for humans**
 
-An open-source Chromium fork with a built-in AI agent, the privacy-first alternative to ChatGPT Atlas, Perplexity Comet, and Dia.
+An open-source Chromium fork with a built-in AI agent. Bring your own API keys, or connect to models running locally.
 
 [![Download for macOS](https://img.shields.io/badge/Download-macOS-black?style=flat&logo=apple&logoColor=white)](https://files.browseros.com/download/BrowserOS.dmg)
 [![Download for Windows](https://img.shields.io/badge/Download-Windows-0078D4?style=flat&logo=windows&logoColor=white)](https://files.browseros.com/download/BrowserOS_installer.exe)
@@ -51,21 +53,31 @@ An open-source Chromium fork with a built-in AI agent, the privacy-first alterna
 
 <div align="center">
 
-**Two browsers, one codebase.** Free · Open source (AGPL-3.0) · Local-only · Bring your own AI keys
+Free · Open source (AGPL-3.0) · Everything runs on your machine
 
 </div>
 
 ## BrowserOS neo
 
-**What is BrowserOS neo?** BrowserOS neo is a free, open-source browser your AI agents drive using your logged-in accounts. Install it, import your logins from Chrome in one click, and connect Claude Code, Codex, Cursor, or any MCP-compatible AI. Then hand off your web tasks. Agents work in parallel in their own tabs, and you watch every step live or replay any session like a video.
+**What is BrowserOS neo?** A second browser, just for your AI agents. Import your logins from Chrome in one click, connect Claude Code, Codex, Cursor, or any MCP agent, and hand off your web tasks. Agents run in parallel in their own tabs. You watch live, or replay any session like a video.
 
-Your AI is smart, but it can't press the buttons. Ask it to book a flight, download an invoice, or reply to an email, and it stops at the login screen. BrowserOS neo fixes that.
+Your AI is smart, but it can't press the buttons. Ask it to book a flight or reply to an email, and it stops at the login screen. BrowserOS neo fixes that.
 
 ### Get started
 
-1. **Install BrowserOS neo and import from Chrome** in one click: logins, bookmarks, extensions. Every account you're signed into becomes something your AI can use.
-2. **Connect your AI in one click.** Claude Code, Codex, Cursor, VS Code, Zed, OpenCode, and Antigravity install with a single click; anything else that speaks MCP connects with a URL.
-3. **Give it a real task.** In your AI chat: *"Find a good time next week for a 30-minute team meeting and send the invite."* Then watch it live from your new tab and replay the whole run like a video.
+1. **Install BrowserOS neo and import from Chrome** in one click: logins, bookmarks, extensions.
+2. **It finds your agents.** Claude Code, Codex, Cursor, VS Code, Zed, OpenCode, and Antigravity connect with one click. Anything that speaks MCP connects with a URL.
+3. **Give it a task from your agent.** *"Book me the cheapest flight to London."* Watch it live from your new tab, replay it later.
+
+### What can your agents do?
+
+Anything that needs a logged-in browser:
+
+- Book flights and restaurants
+- Unsubscribe from junk email
+- Find apartments and message landlords
+- Reply on X, queue posts, pull engagement numbers
+- Update your CRM, file expenses, pull reports from internal tools
 
 ### Key features
 
@@ -109,6 +121,18 @@ Every session is saved as a scrubbable video on your disk with a step-by-step ac
 - **Not a headless driver.** Playwright and browser-use spin up a fresh Chrome subprocess with no logins. Great for CI, useless for "book my flight" or "read my inbox." BrowserOS neo is the browser your logins already live in.
 - **Not a cloud browser.** Browserbase and Browser Use Cloud run your agent's session on someone else's infrastructure. Your prompts and session tokens pass through their servers. BrowserOS neo runs on your machine, on `127.0.0.1`.
 - **Not a locked-in AI browser.** Atlas, Comet, and Dia only work with their own AI. BrowserOS neo works with the agents you already use and pay for.
+
+| The job | BrowserOS neo | agent-browser | Browser Use | Dia | Comet |
+|---|:---:|:---:|:---:|:---:|:---:|
+| Works with my own agent (Claude Code, Codex, Cursor) | ✓ | ✓ | ✓ | — | — |
+| My agent uses my real logins, no setup | ✓ | — | — | ✓ | ✓ |
+| I can run many agents at once | ✓ | — | — | — | ✓ |
+| I keep browsing while my agents work | ✓ | ✓ | ✓ | — | ✓ |
+| I can replay what my agent did | ✓ | — | — | — | — |
+| My browsing data stays on my machine | ✓ | ✓ | ✓ | — | — |
+
+<details>
+<summary><b>BrowserOS: the AI browser for humans</b> (click to expand)</summary>
 
 ## BrowserOS
 
@@ -173,7 +197,7 @@ Point the agent at a page, tell it what to pull, and get structured data back. <
 - **Not Chrome with an AI extension.** Extensions can't touch the browser chrome, can't run scheduled background tasks, can't ship the 20+ built-in tools that the agent uses natively. BrowserOS builds the agent into Chromium itself.
 - **Not Comet, Atlas, or Dia.** Those AI browsers route your prompts through their cloud with their model. BrowserOS runs on your machine with your AI keys. Your data stays yours.
 
-## LLM support
+### LLM support
 
 Bring your own keys, use OAuth for your existing subscriptions, or run models locally. The 6 most-used providers, at a glance:
 
@@ -188,7 +212,7 @@ Bring your own keys, use OAuth for your existing subscriptions, or run models lo
 
 Full list of 11+ providers (Gemini, GitHub Copilot, Azure, Bedrock, OpenRouter, and more) is in the [bring-your-own-LLM docs](https://docs.browseros.com/features/bring-your-own-llm).
 
-## How BrowserOS compares
+### How BrowserOS compares
 
 | | BrowserOS | Chrome | Brave | Dia | Comet | Atlas |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -207,33 +231,21 @@ Full list of 11+ providers (Gemini, GitHub Copilot, Azure, Bedrock, OpenRouter, 
 - [BrowserOS vs Claude Cowork](https://docs.browseros.com/comparisons/claude-cowork): getting real work done with AI
 - [BrowserOS vs OpenClaw](https://docs.browseros.com/comparisons/openclaw): everyday AI assistance
 
-A dedicated BrowserOS neo comparison table is coming; for now, see the [why BrowserOS neo](#browseros-neo) callouts above.
+</details>
 
 ## FAQ
 
-### General
-
 **What's the difference between BrowserOS neo and BrowserOS?**
-BrowserOS neo is a browser your AI drives; BrowserOS is a browser you drive, with an AI agent built in. Both ship from this repo and run side by side. Many people use BrowserOS as their daily browser and BrowserOS neo as their agents' browser.
-
-**Is either free? Is either open source?**
-Both are free and open source under AGPL-3.0. Bring your own AI keys or run local models.
-
-### BrowserOS neo
+BrowserOS neo is a browser your AI drives. BrowserOS is a browser you drive, with an AI agent built in. Both ship from this repo and run side by side. Keep your daily browser, and let agents work in neo.
 
 **Which AI tools work with BrowserOS neo?**
 Any AI that speaks MCP. Claude Code, Codex, Cursor, VS Code, Zed, OpenCode, and Antigravity connect with one click; Claude Desktop connects via a [drop-in extension](https://docs.browseros.com/neo/mcp/claude-desktop); anything else connects with a URL.
 
 **Does my AI share my logins?**
-Yes, and that's the point. Agents drive BrowserOS neo using the sessions you already have, so they automate your real work instead of poking a blank sandbox. Every agent's tabs sit in their own colored Chrome tab group so you can always see whose is whose.
+Yes, and that's the point. Agents drive BrowserOS neo using the sessions you already have, so they automate your real work instead of poking a blank sandbox. Every agent's tabs sit in their own colored tab group so you can always see whose is whose.
 
 **Does anything leave my machine?**
 Your sessions, screenshots, history, and settings live under `~/.browserclaw/` and never upload. BrowserOS neo sends anonymous product-usage events (agent connect/disconnect, version, OS) to help us improve the app; it never sends URLs, page content, prompts, tool results, or screenshots. Off with one toggle in Settings. [Full policy](https://docs.browseros.com/neo/privacy).
-
-### BrowserOS
-
-**What LLM providers does BrowserOS support?**
-11+ providers: Kimi, Claude, OpenAI, Gemini, ChatGPT Pro/Plus and GitHub Copilot via OAuth, OpenRouter, Azure, Bedrock, or fully local through Ollama and LM Studio.
 
 **Do my Chrome extensions and bookmarks work?**
 Yes. Both browsers are Chromium forks, so Chrome extensions work and your bookmarks, passwords, and settings import in one click.
