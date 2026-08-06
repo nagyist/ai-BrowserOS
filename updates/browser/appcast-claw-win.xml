@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>BrowserOS neo Windows Updates</title>
     <link>https://cdn.browseros.com/appcast-claw-win.xml</link>
@@ -8,6 +7,19 @@
     <language>en</language>
 
     <item>
+      <title>BrowserOS neo - 0.49.3.1</title>
+      <description sparkle:format="plain-text">
+      </description>
+      <sparkle:version>10000.0.49.3.1</sparkle:version>
+      <sparkle:shortVersionString>0.49.3.1</sparkle:shortVersionString>
+      <pubDate>Thu, 06 Aug 2026 01:28:35 +0000</pubDate>
+      <link>https://www.browseros.com/</link>
+      <enclosure
+        url="http://cdn.browseros.com/releases/browserclaw/0.49.3.1/win/BrowserOS_neo_v0.49.3.1_x64_installer.exe"
+        sparkle:os="windows"
+        sparkle:edSignature="yyf000oIoE+e6ynNAH2lLv8zK2gaJnAIL1yzgSYxIa0aAIZ1HC9W2UUpFeZKvaJhLCzmZJi3NoUmzRs+Yb3LBQ=="
+        length="127583800"
+        type="application/octet-stream" />
     </item>
 
   </channel>
