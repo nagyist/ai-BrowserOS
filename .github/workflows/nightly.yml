@@ -39,6 +39,7 @@ jobs:
       claw_server_version: ${{ steps.transaction.outputs.claw_server_version }}
       browserclaw_version: ${{ steps.transaction.outputs.browserclaw_version }}
       onboarding_version: ${{ steps.transaction.outputs.onboarding_version }}
+      app_onboarding_version: ${{ steps.transaction.outputs.app_onboarding_version }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -188,7 +189,7 @@ jobs:
       browser_version: ${{ needs.transaction.outputs.browser_version }}
       server_version: ${{ needs.transaction.outputs.server_version }}
       extension_version: ${{ needs.transaction.outputs.agent_version }}
-      onboarding_version: ${{ needs.transaction.outputs.onboarding_version }}
+      onboarding_version: ${{ needs.transaction.outputs.app_onboarding_version }}
     secrets: inherit
 
   build-browserclaw:
