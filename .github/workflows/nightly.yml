@@ -101,6 +101,7 @@ jobs:
     uses: ./.github/workflows/release-claw-server.yml
     permissions:
       contents: write
+      pull-requests: write
     with:
       mode: build
       defer_finalize: true
@@ -228,6 +229,7 @@ jobs:
     uses: ./.github/workflows/release-claw-server.yml
     permissions:
       contents: write
+      pull-requests: write
     with:
       mode: finalize
       state_owner: suite
